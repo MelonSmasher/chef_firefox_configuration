@@ -70,9 +70,7 @@ JSON usage:
 ```json
 {
   "firefox_configuration": {
-    "channel_prefs": {
-      "app.update.channel": "esr"
-    }
+    "app.update.channel": "esr"
   }
 }
 ```
