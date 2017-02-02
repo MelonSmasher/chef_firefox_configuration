@@ -26,7 +26,7 @@ Just include `firefox_configuration` in your node's `run_list`:
 
 ## Attributes 
 
-#### Firefox Install Directory:
+### Firefox Install Directory:
 
 Tells this cookbook where to look for Firefox.
 
