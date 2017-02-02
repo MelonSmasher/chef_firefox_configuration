@@ -33,7 +33,7 @@ Tells this cookbook where to look for Firefox.
 Default Value: 
 - Windows: `C:/Program Files/Mozilla Firefox/`
 - macOS: `/Applications/Firefox.app/Contents/Resources/`
-- Linux: @todo - Figure out install dir for different flavors of linux. Could use some help here :white_check_mark:
+- Linux: @todo - Figure out install dir for different flavors of linux. Could use some help here :smirk:
 
 Ruby usage:
 
