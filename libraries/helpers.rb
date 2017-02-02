@@ -8,5 +8,11 @@ module FirefoxConfiguration
       end
     end
 
+    def create_template(source_template, path)
+      template path do
+        source source_template
+      end
+    end
+
   end
 end
