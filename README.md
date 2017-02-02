@@ -53,7 +53,7 @@ JSON usage:
 
 ###### Note: forward slashes are used for Windows paths in Ruby.
 
-#### Enable Profile Migrator
+### Enable Profile Migrator
 
 Sets the `EnableProfileMigrator` in the `override.ini` file that disables the initial profile migrator.
 
@@ -76,7 +76,7 @@ JSON usage:
 ```
 ###### Note: use a string value of the boolean here
 
-#### App Update Channel:
+### App Update Channel:
 
 This preference determines what types of builds auto-updates will look for. This manages the `channel-prefs.js` file.
 
@@ -110,7 +110,7 @@ JSON usage:
 More info:
 - [Mozilla KB](http://kb.mozillazine.org/App.update.channel)
 
-#### Preferences:
+### Preferences:
 
 Sets the preference as if a user had set it, every time you start the browser. So users can make changes, but they will be erased on restart. If you set a particular preference this way, it shows up in about:config as "user set". These settings are set in the mozilla.cfg file. Any valid firefox preference string can be a member of the hash. 
 
@@ -145,7 +145,7 @@ More info:
 - [Preferences](http://kb.mozillazine.org/Category:Preferences)
 - [Mozilla.org](https://developer.mozilla.org/en-US/Firefox/Enterprise_deployment)
 
-#### Default Preferences:
+### Default Preferences:
 
 Is used to alter the default value, though users can set it normally and their changes will be saved between sessions. If preferences are reset to default through the GUI or some other method, this is what they will go back to. Appears in about:config as "default". These settings are set in the mozilla.cfg file. Any valid firefox preference string can be a member of the hash. 
 
@@ -175,7 +175,7 @@ More info:
 - [Mozilla.org](https://developer.mozilla.org/en-US/Firefox/Enterprise_deployment)
 
 
-#### Lock Preferences:
+### Lock Preferences:
 
 Is used to lock preferences so they cannot be changed through the GUI or about:config. In many cases the GUI will change to reflect this, graying out or removing options. Appears in about:config as "locked". Some config items require lockPref to be set, such as app.update.enabled. It will not work if it set with just pref. These settings are set in the mozilla.cfg file. Any valid firefox preference string can be a member of the hash. 
 
@@ -217,7 +217,7 @@ More info:
 - [Mozilla.org](https://developer.mozilla.org/en-US/Firefox/Enterprise_deployment)
 
 
-#### Clear Preferences:
+### Clear Preferences:
 
 Can be used to "blank" certain preferences. This can be useful e.g. to disable functions that rely on comparing version numbers. These settings are set in the mozilla.cfg file. Any valid firefox preference string can be a member of the hash.
 
@@ -248,7 +248,7 @@ More info:
 - [Mozilla.org](https://developer.mozilla.org/en-US/Firefox/Enterprise_deployment)
 
 
-#### User Chrome CSS:
+### User Chrome CSS:
 
 CSS attributes that are applied to the `userChrome.css` file. These will control visual elements within firefox.
 
