@@ -248,7 +248,7 @@ More info:
 - [Mozilla.org](https://developer.mozilla.org/en-US/Firefox/Enterprise_deployment)
 
 
-# User Chrome CSS:
+#### User Chrome CSS:
 
 CSS attributes that are applied to the `userChrome.css` file. These will control visual elements within firefox.
 
