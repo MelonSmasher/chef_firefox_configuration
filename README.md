@@ -220,7 +220,7 @@ More info:
 
 ### Clear Preferences:
 
-Can be used to "blank" certain preferences. This can be useful e.g. to disable functions that rely on comparing version numbers. These settings are set in the mozilla.cfg file. Any valid firefox preference string can be a member of the hash.
+Can be used to "blank" certain preferences. This can be useful e.g. to disable functions that rely on comparing version numbers. These settings are set in the mozilla.cfg file. Any valid firefox preference string can be a member of the array.
 
 Ruby usage:
 
