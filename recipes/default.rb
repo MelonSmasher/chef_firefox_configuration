@@ -45,7 +45,7 @@ if File.directory?(install_path)
   # Create the template files
   create_template('autoconfig.js.erb', autoconfig_js_path)
   create_template('channel-prefs.js.erb', channel_prefs_js_path)
-  create_template('mozilla.cfg.erb', mozilla_cfg_path)
+  create_template('mozilla.cfg.erb', install_path)
   create_template('override.ini.erb', override_ini_path)
   create_template('userChrome.css.erb', user_chrome_css_path)
 
