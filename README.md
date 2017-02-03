@@ -31,9 +31,10 @@ Just include `firefox_configuration` in your node's `run_list`:
 Tells this cookbook where to look for Firefox.
 
 Default Value: 
+
 - Windows: `C:/Program Files/Mozilla Firefox/`
 - macOS: `/Applications/Firefox.app/Contents/Resources/`
-- Linux: @todo - Figure out install dir for different flavors of linux. Could use some help here :wink:
+- Linux: @todo: Figure out install dir for different flavors of linux. Could use some help here :wink:
 
 Ruby usage:
 
