@@ -53,6 +53,6 @@ else
   # If it does not exists throw a fatal error
   log 'Firefox Install Not Found' do
     message "Could not locate the firefox installation directory at: #{install_path} ... Aborting!"
-    level :Fatal
+    level :fatal
   end
 end
