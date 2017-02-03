@@ -3,13 +3,13 @@
 // prefs
 <% node['firefox_configuration']['prefs'].each do |option, value| -%>
     <% if value.is_a? String %>
-        pref("<%option%>", "<%value%>");
+pref("<%= option %>", "<%= value %>");
     <% else %>
         <% case value %>
         <% when TrueClass, FalseClass %>
-            pref("<%option%>", <% value ? 'true' : 'false' %>);
+pref("<%= option %>", <%= value ? 'true' : 'false' %>);
         <% else %>
-            pref("<%option%>", <% value %>);
+pref("<%= option %>", <%= value %>);
         <% end %>
     <% end %>
 <% end -%>
@@ -17,13 +17,13 @@
 // default_prefs
 <% node['firefox_configuration']['default_prefs'].each do |option, value| -%>
     <% if value.is_a? String %>
-        defaultPref("<%option%>", "<%value%>");
+defaultPref("<%= option %>", "<%= value %>");
     <% else %>
         <% case value %>
         <% when TrueClass, FalseClass %>
-            defaultPref("<%option%>", <% value ? 'true' : 'false' %>);
+defaultPref("<%= option %>", <%= value ? 'true' : 'false' %>);
         <% else %>
-            defaultPref("<%option%>", <% value %>);
+defaultPref("<%= option %>", <%= value %>);
         <% end %>
     <% end %>
 <% end -%>
@@ -31,13 +31,13 @@
 // lock_prefs
 <% node['firefox_configuration']['lock_prefs'].each do |option, value| -%>
     <% if value.is_a? String %>
-        lockPref("<%option%>", "<%value%>");
+lockPref("<%= option %>", "<%= value %>");
     <% else %>
         <% case value %>
         <% when TrueClass, FalseClass %>
-            lockPref("<%option%>", <% value ? 'true' : 'false' %>);
+lockPref("<%= option %>", <%= value ? 'true' : 'false' %>);
         <% else %>
-            lockPref("<%option%>", <% value %>);
+lockPref("<%= option %>", <%= value %>);
         <% end %>
     <% end %>
 <% end -%>
@@ -45,5 +45,5 @@
 
 // clear_prefs
 <% node['firefox_configuration']['clear_prefs'].each do |option| -%>
-    clearPref("<%option%>");
+clearPref("<%= option %>");
 <% end -%>
